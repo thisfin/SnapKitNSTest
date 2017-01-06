@@ -9,8 +9,8 @@
 /* Begin PBXBuildFile section */
 		669720C51E1F9FFC0093DDEF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 669720C41E1F9FFC0093DDEF /* AppDelegate.swift */; };
 		669720C71E1F9FFC0093DDEF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 669720C61E1F9FFC0093DDEF /* Assets.xcassets */; };
-		669720D21E1FA0540093DDEF /* Application.swift in Sources */ = {isa = PBXBuildFile; fileRef = 669720D11E1FA0540093DDEF /* Application.swift */; };
-		669720D41E1FA18D0093DDEF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 669720D31E1FA18D0093DDEF /* ViewController.swift */; };
+		669720D71E1FA8C00093DDEF /* Application.swift in Sources */ = {isa = PBXBuildFile; fileRef = 669720D51E1FA8C00093DDEF /* Application.swift */; };
+		669720D81E1FA8C00093DDEF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 669720D61E1FA8C00093DDEF /* ViewController.swift */; };
 		E919704FCA4CA1794E6B512C /* Pods_SnapKitNSTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FF995380A18F32C376B709AC /* Pods_SnapKitNSTest.framework */; };
 /* End PBXBuildFile section */
 
@@ -21,8 +21,8 @@
 		669720C41E1F9FFC0093DDEF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		669720C61E1F9FFC0093DDEF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		669720CB1E1F9FFC0093DDEF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		669720D11E1FA0540093DDEF /* Application.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Application.swift; path = ../../HostsManager/HostsManager/Application.swift; sourceTree = "<group>"; };
-		669720D31E1FA18D0093DDEF /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ViewController.swift; path = ../../HostsManager/HostsManager/ViewController.swift; sourceTree = "<group>"; };
+		669720D51E1FA8C00093DDEF /* Application.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Application.swift; sourceTree = "<group>"; };
+		669720D61E1FA8C00093DDEF /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		FF995380A18F32C376B709AC /* Pods_SnapKitNSTest.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SnapKitNSTest.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -69,8 +69,8 @@
 			children = (
 				669720CB1E1F9FFC0093DDEF /* Info.plist */,
 				669720C41E1F9FFC0093DDEF /* AppDelegate.swift */,
-				669720D11E1FA0540093DDEF /* Application.swift */,
-				669720D31E1FA18D0093DDEF /* ViewController.swift */,
+				669720D51E1FA8C00093DDEF /* Application.swift */,
+				669720D61E1FA8C00093DDEF /* ViewController.swift */,
 				669720C61E1F9FFC0093DDEF /* Assets.xcassets */,
 			);
 			path = SnapKitNSTest;
@@ -207,8 +207,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				669720D41E1FA18D0093DDEF /* ViewController.swift in Sources */,
-				669720D21E1FA0540093DDEF /* Application.swift in Sources */,
+				669720D81E1FA8C00093DDEF /* ViewController.swift in Sources */,
+				669720D71E1FA8C00093DDEF /* Application.swift in Sources */,
 				669720C51E1F9FFC0093DDEF /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
