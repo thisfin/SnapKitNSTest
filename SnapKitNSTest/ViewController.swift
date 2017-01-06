@@ -10,6 +10,7 @@ import Cocoa
 import SnapKit
 
 class ViewController: NSViewController {
+    let size = NSMakeSize(800, 500)
     let margin: CGFloat = 20
 
     override func viewDidLoad() {
@@ -17,7 +18,7 @@ class ViewController: NSViewController {
 
         view.wantsLayer = true
         view.layer?.backgroundColor = CGColor.white
-        view.frame = NSRect(origin: NSPoint.zero, size: AppDelegate.windowSize)
+        view.frame = NSRect(origin: NSPoint.zero, size: size)
 
         let view1 = NSView()
         view1.wantsLayer = true

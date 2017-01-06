@@ -10,7 +10,6 @@ import Cocoa
 
 @NSApplicationMain
 class AppDelegate: NSObject, NSApplicationDelegate {
-    static let windowSize = NSMakeSize(800, 500)
     var window: NSWindow!
 
     func applicationDidFinishLaunching(_ aNotification: Notification) {
