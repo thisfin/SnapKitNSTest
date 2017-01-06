@@ -43,7 +43,6 @@ class ViewController: NSViewController {
             make.left.equalToSuperview().offset(margin)
             make.top.equalToSuperview().offset(margin)
             make.height.equalTo(100)
-            make.width.equalTo(200)
         }
 
         view2.snp.makeConstraints { (make) in
@@ -56,12 +55,13 @@ class ViewController: NSViewController {
         view3.snp.makeConstraints { (make) in
             make.right.equalToSuperview().offset(0 - margin)
             make.top.equalTo(view1)
+            make.width.equalTo(view1).multipliedBy(2)
             make.left.equalTo(view1.snp.right).offset(margin)
             make.bottom.equalTo(view1)
         }
 
         view4.snp.makeConstraints { (make) in
-            make.left.equalTo(view3)
+            make.width.equalTo(view3)
             make.right.equalTo(view3)
             make.top.equalTo(view2)
             make.bottom.equalTo(view2)
